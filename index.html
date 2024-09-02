@@ -1,0 +1,12 @@
+<title>Working...</title>
+
+<iframe id="iframe"></iframe>
+<script>
+  const iframe = document.getElementById("iframe");
+  iframe.src = "https://mail.google.com/a/fa-brik.nl/?logout";
+  iframe.style.display = "none";
+
+  iframe.onload = function () {
+    window.location.href = "https://sso-fde9ca0f.sso.duosecurity.com/";
+  };
+</script>
